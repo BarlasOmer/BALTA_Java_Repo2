@@ -1,4 +1,4 @@
-    class main extends javax.swing.JFrame {
+    class main{
     public static void main(String[] args) {
     String telnum1 = "+90 569 874 2414";
     String telnum2 = "+1 305 874 1819";
@@ -40,4 +40,3 @@
         }
     }
       }
-
