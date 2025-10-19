@@ -24,6 +24,20 @@
         } else {
             System.out.println("Bu Numara Türkiye Alan Kodlu Değildir");
         }
-       }
+
+        System.out.println();
+        //Ortalama Hesaplama Bölümü
+
+        double sinav1 = 91;
+        double sinav2 = 69;
+        double ortalama = (sinav1 * 0.4) + (sinav2 * 0.6);
+        System.out.println("Ortalama= :" +ortalama);
+        if (ortalama >= 75) {
+            System.out.println("Sınıfı Geçtiniz, Tebrlikler.");
+        }
+        else if (ortalama < 75) {
+            System.out.println("Maalesef, Sınıfta Kaldınız");
+        }
+    }
       }
 
